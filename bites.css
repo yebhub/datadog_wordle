@@ -8,10 +8,23 @@ hr {
 
 }
 
+.header-container{
+	width: 500px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
 #title {
 	font-size: 36px;
 	font-weight: bold;
 	letter-spacing: 2px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
 
 }
 
@@ -22,6 +35,12 @@ hr {
 	margin-top: 3px;
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.logo{
+	width:100px;
+	height: 100px;
+	float: left;
 }
 
 
